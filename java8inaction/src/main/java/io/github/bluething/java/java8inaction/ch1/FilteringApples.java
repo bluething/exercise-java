@@ -25,6 +25,11 @@ public class FilteringApples {
         System.out.println(heavyApples);
         heavyApples = filterApples(apples, FilteringApples::isHeavyApple);
         System.out.println(heavyApples);
+
+        List<Apple> lightAndGreenApples = filterApples(apples,
+                (Apple apple) -> apple.getWeight() < 100 && "Green".equalsIgnoreCase(apple.getColor()));
+        System.out.println(lightAndGreenApples);
+
     }
 
     public static List<Apple> filterGreenApple(List<Apple> apples) {
