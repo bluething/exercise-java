@@ -32,6 +32,13 @@ public class FilteringApples {
         return filteredApples;
     }
 
+    public static boolean isGreenApple(Apple apple) {
+        return "Green".equalsIgnoreCase(apple.getColor());
+    }
+    public static boolean isHeavyApple(Apple apple) {
+        return apple.getWeight() > 150;
+    }
+
     public static List<Apple> filterHeavyApples(List<Apple> apples) {
         List<Apple> filteredApples = new ArrayList<>();
         for (Apple apple : apples) {
