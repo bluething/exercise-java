@@ -43,3 +43,19 @@ This is good, we force to implement composition instead of inheritance and creat
 
 - They are hard for programmers to find.  
 We need to read documentation before use the class. We can use convention name to ease us when using the class.
+
+###### Item 2: Consider a builder when faced with many constructor parameters
+
+###### Item 3: Enforce the singleton property with a private constructor or an enum type
+
+###### Item 4: Enforce noninstantiability with a private constructor
+
+###### Item 5: Prefer dependency injection to hardwiring resources
+
+###### Item 6: Avoid creating unnecessary objects
+
+###### Item 7: Eliminate obsolete object references
+
+###### Item 8: Avoid finalizers and cleaners
+
+###### Item 9: Prefer try-with-resources to try-finally
