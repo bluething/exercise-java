@@ -6,3 +6,6 @@ effectivejava/.gradle/
 java8inaction/.gradle/
 
 java8inaction/build/
+
+logging/slf4jlog4j2/.gradle/
+logging/slf4jlogback/.gradle/
