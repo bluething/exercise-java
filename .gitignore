@@ -9,3 +9,4 @@ java8inaction/build/
 
 logging/slf4jlog4j2/.gradle/
 logging/slf4jlogback/.gradle/
+logging/slf4jlog4j2/build
